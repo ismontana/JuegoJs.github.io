@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10wh;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to right,rgb(32, 47, 131) , rgb(16, 5, 34));
+    color: white;
+}
+
+        .container{
+            width: 60%;
+            color: white;
+            text-align: center;
+        }
+        .datos{
+            width: 40%;
+            color: white;
+            text-align: right;
+        }
+        #score {
+            font-size: 20px; /* Tamaño del texto del puntaje */
+        }
+        #vidas {
+            font-size: 20px; /* Tamaño del texto del puntaje */
+        }
+        canvas {
+            background: rgb(20, 20, 20);
+        }
+        .boton1{
+            width: 60%;
+            height: 100%;
+            text-align: center;
+        }
+        .boton2{
+            width: 60%;
+            height: 90%;
+            text-align: center;
+        }
+        .boton3{
+            width: 60%;
+            height: 80%;
+            text-align: center;
+        }
+
+        .boton1-retro {
+  border: 2px solid black;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(207, 126, 126));
+  box-shadow: inset 0 0 4px black;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 2px white;
+}
+
+.boton1-retro:hover {
+  background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(212, 154, 154));
+}
+
+.boton1-retro:active {
+  background: linear-gradient(to bottom, rgb(255, 47, 47), rgb(226, 159, 159));
+  box-shadow: inset 0 0 8px black;
+  transform: scale(0.95);
+}
+
+.boton2-retro {
+    border: 2px solid black;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(251, 255, 0), rgb(204, 214, 68));
+    box-shadow: inset 0 0 4px black;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .boton2-retro:hover {
+    background: linear-gradient(to bottom, rgb(251, 255, 45),rgb(220, 228, 115));
+    box-shadow: inset 0 0 4px black;
+  }
+  
+  .boton2-retro:active {
+    background: linear-gradient(to bottom, rgb(251, 255, 45),rgb(220, 228, 115));
+    box-shadow: inset 0 0 4px black;
+    box-shadow: inset 0 0 8px black;
+    transform: scale(0.95);
+  }
+
+  .boton3-retro {
+    border: 2px solid black;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(0, 17, 255), rgb(126, 131, 207));
+    box-shadow: inset 0 0 4px black;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .boton3-retro:hover {
+    background: linear-gradient(to bottom, rgb(36, 50, 255), rgb(148, 152, 209));
+  }
+  
+  .boton3-retro:active {
+    background: linear-gradient(to bottom, rgb(36, 50, 255), rgb(148, 152, 209));
+    box-shadow: inset 0 0 8px black;
+    transform: scale(0.95);
+  }
+
+  .boton4-retro {
+    border: 2px solid black;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(0, 255, 34), rgb(54, 235, 78));
+    box-shadow: inset 0 0 4px black;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .boton4-retro:hover {
+    background: linear-gradient(to bottom, rgb(56, 252, 82),rgb(110, 241, 127));
+    box-shadow: inset 0 0 4px black;
+  }
+  
+  .boton4-retro:active {
+    background: linear-gradient(to bottom, rgb(56, 252, 82),rgb(110, 241, 127));
+    box-shadow: inset 0 0 4px black;
+    box-shadow: inset 0 0 8px black;
+    transform: scale(0.95);
+  }
